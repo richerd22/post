@@ -1,0 +1,44 @@
+{
+  "id": "TPA-003",
+  "made": true,
+  "kind": "made here",
+  "series": "Greetings from Alarm Club",
+  "received": "2026-10-19",
+  "printed": "June 2026",
+  "title": "Box 1272, Washington Street",
+  "alt": "Lamp-standard pull-station, Downtown Crossing",
+  "catalog": [
+    {
+      "label": "Subject",
+      "value": "Lamp-standard pull-station, Downtown Crossing"
+    },
+    {
+      "label": "Size",
+      "value": "4 × 6 in"
+    },
+    {
+      "label": "Printing",
+      "value": "Offset lithograph on 12pt C1S, gloss face, matte verso. Full color, double-sided. Printed in Cambridge, Massachusetts, June 2026"
+    },
+    {
+      "label": "Photograph",
+      "value": "iPhone 17 Pro Max, 14mm equiv, f/2.2, ISO 40. 42.3576, -71.0582. 27 May 2026, 2:14 PM"
+    },
+    {
+      "label": "Edition",
+      "value": "Small run, hand-sent to local figures, organizations and businesses. Never sold"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": "An older lamp-topped standard with its red globe, across from the Old South Meeting House. A trolley is in frame.",
+  "link": {
+    "label": "Alarm Club gift shop",
+    "url": "https://giftshop.alarmclub.boston"
+  },
+  "images": {
+    "front": "front.webp",
+    "front_w": 1200,
+    "front_h": 1800,
+    "back": null
+  }
+}

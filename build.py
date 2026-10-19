@@ -77,18 +77,23 @@ def tile(c):
     origin = c.get("origin", {}).get("value", "")
     date = c.get("date", {}).get("value", "")
     meta = ", ".join(x for x in (origin, date) if x)
+    if c.get("made"):
+        meta = c.get("printed", "")
     alt = c.get("alt") or c.get("title", "")
+    label = c.get("series") if c.get("made") else c.get("kind", "")
     return f"""<li class="tile" data-kind="{e(c.get('kind',''))}">
   <a href="c/{e(c['id'])}/">
     <span class="mount"><img src="cards/{e(c['_dir'])}/front.webp" alt="{e(alt)}" loading="lazy" width="{c['images']['front_w']}" height="{c['images']['front_h']}"></span>
-    <span class="tline"><span class="no">{e(c['id'])}</span><span class="kind">{e(c.get('kind',''))}</span></span>
+    <span class="tline"><span class="no">{e(c['id'])}</span><span class="kind">{e(label)}</span></span>
     <span class="ttitle">{e(c.get('title',''))}</span>
     <span class="tmeta">{e(meta)}</span>
   </a>
 </li>"""
 
 
-def build_index(cards):
+def build_index(all_cards):
+    cards = [c for c in all_cards if not c.get("made")]
+    made = sorted((c for c in all_cards if c.get("made")), key=lambda c: c["id"])
     kinds = [k for k in KIND_ORDER if any(c.get("kind") == k for c in cards)]
     if cards:
         filt = ""
@@ -111,18 +116,36 @@ def build_index(cards):
 {count}
 {grid}
 </section>
+{made_section(made)}
 <script>
 (function(){{
-  var f=document.querySelector('.filter'); if(!f) return;
+  var f=document.querySelector('.archive .filter'); if(!f) return;
   f.addEventListener('click',function(ev){{
     var b=ev.target.closest('button'); if(!b) return;
     var k=b.getAttribute('data-kind');
     f.querySelectorAll('button').forEach(function(x){{x.setAttribute('aria-pressed', x===b?'true':'false');}});
-    document.querySelectorAll('.tile').forEach(function(t){{t.hidden = k && t.getAttribute('data-kind')!==k;}});
+    document.querySelectorAll('.archive .tile').forEach(function(t){{t.hidden = k && t.getAttribute('data-kind')!==k;}});
   }});
 }})();
 </script>"""
     return page("Post - mail sent to Boston, cataloged", body)
+
+
+def made_section(made):
+    if not made:
+        return ""
+    series = []
+    for c in made:
+        if c.get("series") not in series:
+            series.append(c.get("series"))
+    groups = "".join(
+        f'<h3 class="series">{e(s)}</h3><ol class="grid">{"".join(tile(c) for c in made if c.get("series") == s)}</ol>'
+        for s in series)
+    return f"""<section class="archive made" id="made" aria-label="Made here">
+<h2 class="madehead">Made here</h2>
+<p class="count">Postcards Third Polar Arch has printed and sent out. Fronts only, with the print specs.</p>
+{groups}
+</section>"""
 
 
 def field_row(f):
@@ -142,7 +165,14 @@ def build_card(c, prev_c, next_c):
             rows.append(field_row(f))
     for f in c.get("catalog", []):
         rows.append(field_row(f))
-    rows.append(field_row({"label": "Received", "value": c.get("received", "")}))
+    if c.get("made"):
+        rows.insert(0, field_row({"label": "Series", "value": c.get("series", "")}))
+        rows.append(field_row({"label": "Printed", "value": c.get("printed", "")}))
+        rows.append(field_row({"label": "Made by", "value": "Third Polar Arch"}))
+    else:
+        rows.append(field_row({"label": "Received", "value": c.get("received", "")}))
+    if c.get("link"):
+        rows.append(f'<div class="row"><dt>See</dt><dd><a href="{e(c["link"]["url"])}">{e(c["link"]["label"])}</a></dd></div>')
     if c.get("via") and c["via"] != "direct":
         rows.append(field_row({"label": "Via", "value": c["via"]}))
     back = ""
@@ -153,9 +183,10 @@ def build_card(c, prev_c, next_c):
         notes += f'<div class="note"><h2>From the sender</h2><blockquote>{e(c["sender_note"])}</blockquote></div>'
     if c.get("tpa_note"):
         notes += f'<div class="note"><h2>Notes</h2><p>{e(c["tpa_note"])}</p></div>'
+    newer, older = ("Previous", "Next") if c.get("made") else ("Newer", "Older")
     nav = '<nav class="pager">'
-    nav += f'<a href="{up}c/{e(prev_c["id"])}/" rel="prev">Newer: {e(prev_c["id"])}</a>' if prev_c else "<span></span>"
-    nav += f'<a href="{up}c/{e(next_c["id"])}/" rel="next">Older: {e(next_c["id"])}</a>' if next_c else "<span></span>"
+    nav += f'<a href="{up}c/{e(prev_c["id"])}/" rel="prev">{newer}: {e(prev_c["id"])}</a>' if prev_c else "<span></span>"
+    nav += f'<a href="{up}c/{e(next_c["id"])}/" rel="next">{older}: {e(next_c["id"])}</a>' if next_c else "<span></span>"
     nav += "</nav>"
     alt = c.get("alt") or c.get("title", "")
     body = f"""<article class="entry">
@@ -182,6 +213,7 @@ def build_about():
   {address_block()}
   <div class="prose">
     <p>Postcards, mail art, letters, ephemera. Some of it is art, some of it is a gas-station postcard; it all gets cataloged.</p>
+    <p>The archive also keeps the postcards Third Polar Arch prints and sends out, under <a href="../#made">Made here</a>.</p>
     <h2>The deal</h2>
     <p>Nothing is returned, nothing is sent back, and no reply is owed in either direction.</p>
     <p>You keep your copyright. By sending, you give Third Polar Arch a permanent, non-exclusive right to photograph, catalog and show the front of what you sent, and to use those images to promote this archive. The physical piece stays here.</p>
@@ -205,11 +237,12 @@ def main():
     (ROOT / "about/index.html").write_text(build_about())
     cdir = ROOT / "c"
     live = set()
-    for i, c in enumerate(cards):
-        out = cdir / c["id"]
-        out.mkdir(parents=True, exist_ok=True)
-        (out / "index.html").write_text(build_card(c, cards[i - 1] if i > 0 else None, cards[i + 1] if i + 1 < len(cards) else None))
-        live.add(c["id"])
+    for group in ([c for c in cards if not c.get("made")], sorted([c for c in cards if c.get("made")], key=lambda c: c["id"])):
+        for i, c in enumerate(group):
+            out = cdir / c["id"]
+            out.mkdir(parents=True, exist_ok=True)
+            (out / "index.html").write_text(build_card(c, group[i - 1] if i > 0 else None, group[i + 1] if i + 1 < len(group) else None))
+            live.add(c["id"])
     # remove pages for cards that were taken down
     if cdir.exists():
         for p in cdir.iterdir():
@@ -219,7 +252,7 @@ def main():
                 p.rmdir()
     feed = [{"id": c["id"], "title": c.get("title"), "kind": c.get("kind"), "received": c.get("received"),
              "origin": c.get("origin", {}).get("value"), "url": f"{SITE}/c/{c['id']}/",
-             "image": f"{SITE}/cards/{c['_dir']}/front.webp"} for c in cards]
+             "image": f"{SITE}/cards/{c['_dir']}/front.webp", "made_here": bool(c.get("made"))} for c in cards]
     (ROOT / "feed.json").write_text(json.dumps(feed, indent=1))
     urls = ["/", "/about/"] + [f"/c/{c['id']}/" for c in cards]
     today = datetime.date.today().isoformat()

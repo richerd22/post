@@ -1,0 +1,44 @@
+{
+  "id": "TPA-001",
+  "made": true,
+  "kind": "made here",
+  "series": "Greetings from Alarm Club",
+  "received": "2026-10-19",
+  "printed": "June 2026",
+  "title": "Box 1371, Beacon Hill",
+  "alt": "Gamewell pull-station, Beacon Street at the State House",
+  "catalog": [
+    {
+      "label": "Subject",
+      "value": "Gamewell pull-station, Beacon Street at the State House"
+    },
+    {
+      "label": "Size",
+      "value": "6 × 4 in"
+    },
+    {
+      "label": "Printing",
+      "value": "Offset lithograph on 12pt C1S, gloss face, matte verso. Full color, double-sided. Printed in Cambridge, Massachusetts, June 2026"
+    },
+    {
+      "label": "Photograph",
+      "value": "iPhone 17 Pro Max, 24mm equiv, f/1.8, ISO 100. 42.3579, -71.0627. 27 May 2026, 3:43 PM"
+    },
+    {
+      "label": "Edition",
+      "value": "Small run, hand-sent to local figures, organizations and businesses. Never sold"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": "Boston's boxes have used the same four-digit geographic numbering since 1913.",
+  "link": {
+    "label": "Alarm Club gift shop",
+    "url": "https://giftshop.alarmclub.boston"
+  },
+  "images": {
+    "front": "front.webp",
+    "front_w": 1800,
+    "front_h": 1200,
+    "back": null
+  }
+}

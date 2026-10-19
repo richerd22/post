@@ -1,0 +1,44 @@
+{
+  "id": "TPA-002",
+  "made": true,
+  "kind": "made here",
+  "series": "Greetings from Alarm Club",
+  "received": "2026-10-19",
+  "printed": "June 2026",
+  "title": "Old State House, Washington and State",
+  "alt": "Pull-station at the Freedom Trail",
+  "catalog": [
+    {
+      "label": "Subject",
+      "value": "Pull-station at the Freedom Trail"
+    },
+    {
+      "label": "Size",
+      "value": "6 × 4 in"
+    },
+    {
+      "label": "Printing",
+      "value": "Offset lithograph on 12pt C1S, gloss face, matte verso. Full color, double-sided. Printed in Cambridge, Massachusetts, June 2026"
+    },
+    {
+      "label": "Photograph",
+      "value": "iPhone 17 Pro Max, 14mm equiv, f/2.2, ISO 50. 42.3588, -71.0578. 27 May 2026, 2:19 PM"
+    },
+    {
+      "label": "Edition",
+      "value": "Small run, hand-sent to local figures, organizations and businesses. Never sold"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": "The box stands at the foot of the Old State House. A duck boat is in frame.",
+  "link": {
+    "label": "Alarm Club gift shop",
+    "url": "https://giftshop.alarmclub.boston"
+  },
+  "images": {
+    "front": "front.webp",
+    "front_w": 1800,
+    "front_h": 1200,
+    "back": null
+  }
+}

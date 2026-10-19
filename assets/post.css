@@ -188,3 +188,8 @@ img { display: block; max-width: 100%; height: auto; }
   .mount { padding: 8px; }
 }
 @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+
+/* Made here: cards Third Polar Arch printed */
+.made { padding-top: .5rem; }
+.madehead { font: 600 1.6rem/1.1 var(--serif, inherit); margin: 2rem 0 0; }
+.series { font: 500 .95rem/1 var(--cond); letter-spacing: .04em; text-transform: uppercase; color: var(--ink-soft); margin: 2rem 0 1rem; }

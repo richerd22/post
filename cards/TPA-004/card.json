@@ -1,0 +1,44 @@
+{
+  "id": "TPA-004",
+  "made": true,
+  "kind": "made here",
+  "series": "Greetings from Alarm Club",
+  "received": "2026-10-19",
+  "printed": "June 2026",
+  "title": "Box 1574, Back Bay",
+  "alt": "Pull-station at Exeter Street and Commonwealth Avenue",
+  "catalog": [
+    {
+      "label": "Subject",
+      "value": "Pull-station at Exeter Street and Commonwealth Avenue"
+    },
+    {
+      "label": "Size",
+      "value": "4 × 6 in"
+    },
+    {
+      "label": "Printing",
+      "value": "Offset lithograph on 12pt C1S, gloss face, matte verso. Full color, double-sided. Printed in Cambridge, Massachusetts, June 2026"
+    },
+    {
+      "label": "Photograph",
+      "value": "iPhone 17 Pro Max, 14mm equiv, f/2.2, ISO 40. 42.3515, -71.0804. 27 May 2026, 4:20 PM"
+    },
+    {
+      "label": "Edition",
+      "value": "Small run, hand-sent to local figures, organizations and businesses. Never sold"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": "The box stands under a DO NOT ENTER sign beside a gas-lamp standard, on Back Bay land filled in during the 1800s.",
+  "link": {
+    "label": "Alarm Club gift shop",
+    "url": "https://giftshop.alarmclub.boston"
+  },
+  "images": {
+    "front": "front.webp",
+    "front_w": 1200,
+    "front_h": 1800,
+    "back": null
+  }
+}

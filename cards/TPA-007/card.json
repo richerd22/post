@@ -1,0 +1,38 @@
+{
+  "id": "TPA-007",
+  "made": true,
+  "kind": "made here",
+  "series": "Darkroom",
+  "received": "2026-10-19",
+  "printed": "2026",
+  "title": "What Meta thinks you do",
+  "alt": "Four-panel grid: friends, boss, Meta, and what you actually do (a mail icon showing 120,001).",
+  "catalog": [
+    {
+      "label": "Size",
+      "value": "4 × 6 in"
+    },
+    {
+      "label": "Printing",
+      "value": "MOO Original postcard, matte, standard paper, FSC Mix 70%"
+    },
+    {
+      "label": "Back",
+      "value": "The best ads never introduce themselves. www.darkroom.ad"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "link": {
+    "label": "Darkroom",
+    "url": "https://darkroom.ad"
+  },
+  "images": {
+    "front": "front.webp",
+    "front_w": 1200,
+    "front_h": 1800,
+    "back": "back.webp",
+    "back_w": 1800,
+    "back_h": 1200
+  }
+}

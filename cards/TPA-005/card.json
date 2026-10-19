@@ -1,0 +1,38 @@
+{
+  "id": "TPA-005",
+  "made": true,
+  "kind": "made here",
+  "series": "Darkroom",
+  "received": "2026-10-19",
+  "printed": "2026",
+  "title": "Boost Post vs. Dark Ads",
+  "alt": "Two-seat bus comic. The window labeled Boost Post faces a rock wall; the one labeled Dark Ads faces mountains and a SOLD OUT stamp.",
+  "catalog": [
+    {
+      "label": "Size",
+      "value": "6 × 4 in"
+    },
+    {
+      "label": "Printing",
+      "value": "MOO Original postcard, matte, standard paper, FSC Mix 70%"
+    },
+    {
+      "label": "Back",
+      "value": "The best ads never introduce themselves. www.darkroom.ad"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "link": {
+    "label": "Darkroom",
+    "url": "https://darkroom.ad"
+  },
+  "images": {
+    "front": "front.webp",
+    "front_w": 1800,
+    "front_h": 1200,
+    "back": "back.webp",
+    "back_w": 1800,
+    "back_h": 1200
+  }
+}
