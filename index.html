@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Post - mail sent to Boston, cataloged</title>
+<meta name="description" content="Mail art and postcards sent to a Boston PO box, cataloged by Third Polar Arch.">
+<link rel="canonical" href="https://post.cold.fyi/">
+<meta property="og:title" content="Post - mail sent to Boston, cataloged">
+<meta property="og:description" content="Mail art and postcards sent to a Boston PO box, cataloged by Third Polar Arch.">
+
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/post.css">
+</head>
+<body>
+<div class="airmail" aria-hidden="true"></div>
+<header class="mast">
+  <a class="wordmark" href="">Post</a>
+  <nav><a href="">Archive</a><a href="about/">Send something</a></nav>
+</header>
+<main>
+<section class="intro">
+  <div class="lede">
+    <h1>Mail sent to a box in Boston, cataloged.</h1>
+    <p>Postcards, mail art, letters and paper ephemera that arrive at the Third Polar Arch PO box. Each piece gets a catalog number and the plain facts: where it came from, the postmark, the stamps, the paper, and a date estimate with its reasoning. Where something is a guess, it says so.</p>
+  </div>
+  <address class="address big">
+  <span class="to">Send anything to</span>
+  <span>PO Box 120264</span>
+  <span>Boston, MA 02112-0264</span>
+</address>
+</section>
+<section class="archive" aria-label="Archive">
+
+<div class="empty"><p>Nothing is cataloged yet. The first piece that lands in the box goes here.</p></div>
+</section>
+<script>
+(function(){
+  var f=document.querySelector('.filter'); if(!f) return;
+  f.addEventListener('click',function(ev){
+    var b=ev.target.closest('button'); if(!b) return;
+    var k=b.getAttribute('data-kind');
+    f.querySelectorAll('button').forEach(function(x){x.setAttribute('aria-pressed', x===b?'true':'false');});
+    document.querySelectorAll('.tile').forEach(function(t){t.hidden = k && t.getAttribute('data-kind')!==k;});
+  });
+})();
+</script>
+</main>
+<footer class="foot">
+  <p>Post is the mail archive of <a href="https://thirdpolararch.com">Third Polar Arch</a>, Boston. Fronts only. Nothing is returned and no reply is owed.</p>
+  <p>Want something taken down? Email <a href="mailto:hello@thirdpolararch.com?subject=Post%20takedown">hello@thirdpolararch.com</a> with the catalog number.</p>
+</footer>
+</body>
+</html>
