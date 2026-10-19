@@ -1,0 +1,39 @@
+{
+  "id": "P-0010",
+  "received": "2026-10-18",
+  "kind": "postcard",
+  "title": "Hall of Fresh and Clear Benevolence, East Hill",
+  "alt": "Photograph of a traditional Chinese hall with dark wooden columns carrying vertical calligraphy and a central scroll painting.",
+  "catalog": [
+    {
+      "label": "Subject",
+      "value": "東山明善堂 - Hall of Fresh and Claer Benevolence on the East Hill Isiand (as printed, typos included)"
+    },
+    {
+      "label": "Printing",
+      "value": "Photographic, offset"
+    },
+    {
+      "label": "Format",
+      "value": "Sent inside an envelope; card itself unstamped"
+    },
+    {
+      "label": "Language",
+      "value": "Chinese, Japanese and English caption"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "via": "Postcrossing",
+  "origin": {
+    "value": "Taiwan",
+    "status": "estimated",
+    "basis": "Postcrossing TW ID; card arrived in an envelope postmarked Taiwan"
+  },
+  "images": {
+    "front": "front.webp",
+    "front_w": 2000,
+    "front_h": 1352,
+    "back": null
+  }
+}

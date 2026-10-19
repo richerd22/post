@@ -1,0 +1,44 @@
+{
+  "id": "P-0009",
+  "received": "2026-10-18",
+  "kind": "postcard",
+  "title": "Bauhaus Dessau centenary postcard, Jahrhundert Legende",
+  "alt": "Graphic of the Bauhaus building in Dessau with yellow, blue and red blocks and the words Jahrhundert Legende.",
+  "origin": {
+    "value": "Germany"
+  },
+  "date": {
+    "value": "2026"
+  },
+  "catalog": [
+    {
+      "label": "Printing",
+      "value": "Offset"
+    },
+    {
+      "label": "Publisher",
+      "value": "City of Dessau-Rosslau centenary campaign, dessau-bauhaus100.de"
+    },
+    {
+      "label": "Language",
+      "value": "German"
+    },
+    {
+      "label": "Stamps",
+      "value": "Germany 125 cents, Künstlerkolonie Nidden, Germany-Lithuania joint issue, 2026"
+    },
+    {
+      "label": "Back",
+      "value": "Printed campaign text: Eine Ikone feiert Jubiläum, funded by Saxony-Anhalt, #moderndenken; Priority airmail label"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "via": "Postcrossing",
+  "images": {
+    "front": "front.webp",
+    "front_w": 2000,
+    "front_h": 1406,
+    "back": null
+  }
+}

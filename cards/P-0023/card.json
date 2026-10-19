@@ -1,0 +1,37 @@
+{
+  "id": "P-0023",
+  "received": "2026-10-18",
+  "kind": "postcard",
+  "title": "Lunar Landscape 4, anthotype by Jesseca Ferguson",
+  "alt": "Purple-toned print of jagged mountains under a large moon, with brushed edges.",
+  "origin": {
+    "value": "Boston, Massachusetts, US",
+    "status": "estimated",
+    "basis": "Artist's studio address printed on the back"
+  },
+  "date": {
+    "value": "2022"
+  },
+  "catalog": [
+    {
+      "label": "Artist",
+      "value": "Jesseca Ferguson"
+    },
+    {
+      "label": "Work",
+      "value": "Lunar Landscape 4, 2022 archival print from a 2021 anthotype on purple stock, 10 x 8 in, as printed on the back"
+    },
+    {
+      "label": "Format",
+      "value": "Exhibition announcement card for Making Pictures from Plants: Contemporary Anthotypes, Rhode Island Center for Photographic Arts, Providence, March 17 to April 15, 2022"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 1397,
+    "front_h": 2000,
+    "back": null
+  }
+}

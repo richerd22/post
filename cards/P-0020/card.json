@@ -1,0 +1,36 @@
+{
+  "id": "P-0020",
+  "received": "2026-10-18",
+  "kind": "postcard",
+  "title": "Painting of TD Garden, split basketball court and hockey rink",
+  "alt": "Painting of the TD Garden bowl from above, the floor half Celtics parquet and half Bruins ice, under the scoreboard.",
+  "origin": {
+    "value": "Boston, Massachusetts, US",
+    "status": "estimated",
+    "basis": "Subject and Boston Garden Society imprint; no postmark"
+  },
+  "catalog": [
+    {
+      "label": "Printing",
+      "value": "Offset reproduction of a painting"
+    },
+    {
+      "label": "Artist",
+      "value": "Erin Micozzi, live painting, credited on the back"
+    },
+    {
+      "label": "Publisher",
+      "value": "Boston Garden Society"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 2000,
+    "front_h": 1305,
+    "back": "back.webp",
+    "back_w": 2000,
+    "back_h": 1445
+  }
+}

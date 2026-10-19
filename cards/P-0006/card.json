@@ -1,0 +1,29 @@
+{
+  "id": "P-0006",
+  "received": "2026-10-18",
+  "kind": "ephemera",
+  "title": "Down to Clown greeting card, ten clown faces",
+  "alt": "Illustrated card of ten clown faces in ruffled collars under the words Down to Clown, on a polka-dot ground.",
+  "catalog": [
+    {
+      "label": "Format",
+      "value": "Greeting card"
+    },
+    {
+      "label": "Printing",
+      "value": "Offset"
+    },
+    {
+      "label": "Publisher",
+      "value": "The Good Twin, style 420, printed in the USA"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 1521,
+    "front_h": 2000,
+    "back": null
+  }
+}

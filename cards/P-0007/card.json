@@ -1,0 +1,49 @@
+{
+  "id": "P-0007",
+  "received": "2026-10-18",
+  "kind": "mail art",
+  "title": "Corrugated kraft panel stitched with pink thread",
+  "alt": "Grey board with rounded corners holding a block of vertical paper pleats, stitched along the bottom with pink cross-stitches.",
+  "catalog": [
+    {
+      "label": "Medium",
+      "value": "Corrugated kraft paper mounted on kraft board, pink cross-stitch"
+    },
+    {
+      "label": "Format",
+      "value": "Rounded-corner kraft card"
+    },
+    {
+      "label": "Maker",
+      "value": "Handmade by the sender",
+      "status": "estimated",
+      "basis": "The stitching runs through to the written side"
+    },
+    {
+      "label": "Stamps",
+      "value": "Taiwan (Republic of China) NT$13, Kaohsiung scenic design"
+    },
+    {
+      "label": "Extras on the back",
+      "value": "Airmail label, Le Petit Prince sticker, rubber stamps"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "via": "Postcrossing",
+  "origin": {
+    "value": "Taiwan"
+  },
+  "postmark": {
+    "value": "Taiwan, round hand cancel, 3 Sep 2026"
+  },
+  "date": {
+    "value": "September 2026"
+  },
+  "images": {
+    "front": "front.webp",
+    "front_w": 2000,
+    "front_h": 1431,
+    "back": null
+  }
+}

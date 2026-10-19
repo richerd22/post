@@ -1,0 +1,21 @@
+{
+  "id": "P-0003",
+  "received": "2026-10-18",
+  "kind": "postcard",
+  "title": "Illustration of two stags touching noses in a forest",
+  "alt": "Painted illustration of two red deer stags nuzzling in a sunlit forest clearing.",
+  "catalog": [
+    {
+      "label": "Printing",
+      "value": "Digital print of an illustration, signed in the image"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 1353,
+    "front_h": 2000,
+    "back": null
+  }
+}

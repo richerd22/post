@@ -1,0 +1,36 @@
+{
+  "id": "P-0008",
+  "received": "2026-10-18",
+  "kind": "postcard",
+  "title": "Theropod skeleton at Zuojhen Fossil Park, Tainan",
+  "alt": "Photograph of a mounted dinosaur skeleton with open jaws in a museum hall, other fossil mounts behind.",
+  "origin": {
+    "value": "Taiwan"
+  },
+  "catalog": [
+    {
+      "label": "Printing",
+      "value": "Photographic, offset"
+    },
+    {
+      "label": "Publisher",
+      "value": "Tainan City Zuojhen Fossil Park, as printed on the front"
+    },
+    {
+      "label": "Stamps",
+      "value": "Taiwan (Republic of China) NT$6 Year of the Horse, and NT$6 jade carving design"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "via": "Postcrossing",
+  "postmark": {
+    "value": "Taiwan, round hand cancel"
+  },
+  "images": {
+    "front": "front.webp",
+    "front_w": 2000,
+    "front_h": 1412,
+    "back": null
+  }
+}

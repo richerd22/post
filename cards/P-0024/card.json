@@ -1,0 +1,29 @@
+{
+  "id": "P-0024",
+  "received": "2026-10-18",
+  "kind": "postcard",
+  "title": "Isola (Island), painting by Marcello Cinque",
+  "alt": "Soft-edged abstract painting of a dark mound mirrored above and below a horizontal line, in browns, pinks and blues.",
+  "catalog": [
+    {
+      "label": "Artist",
+      "value": "Marcello Cinque"
+    },
+    {
+      "label": "Work",
+      "value": "Isola (Island), as printed on the back"
+    },
+    {
+      "label": "Format",
+      "value": "Artist's postcard"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 1343,
+    "front_h": 2000,
+    "back": null
+  }
+}

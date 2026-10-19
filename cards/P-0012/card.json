@@ -1,0 +1,40 @@
+{
+  "id": "P-0012",
+  "received": "2026-10-18",
+  "kind": "postcard",
+  "title": "Two red-crowned cranes in flight, Japanese card",
+  "alt": "Two white cranes with black-edged wings flying against a deep blue background inside a white border.",
+  "origin": {
+    "value": "Japan"
+  },
+  "catalog": [
+    {
+      "label": "Stamps",
+      "value": "Japan 5 yen and 10 yen definitives, plus a soft-serve ice cream design stamp"
+    },
+    {
+      "label": "Cancel",
+      "value": "Round hand cancels, three strikes"
+    },
+    {
+      "label": "Printing",
+      "value": "Offset, white border with blue keyline"
+    },
+    {
+      "label": "Language",
+      "value": "Japanese title on front"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "via": "Postcrossing",
+  "postmark": {
+    "value": "Japan, hand cancels, date not fully legible"
+  },
+  "images": {
+    "front": "front.webp",
+    "front_w": 2000,
+    "front_h": 1389,
+    "back": null
+  }
+}

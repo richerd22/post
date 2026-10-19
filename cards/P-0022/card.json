@@ -1,0 +1,37 @@
+{
+  "id": "P-0022",
+  "received": "2026-10-18",
+  "kind": "postcard",
+  "title": "Two horses/book, pinhole photograph by Jesseca Ferguson",
+  "alt": "Black and white photograph of a white toy horse standing on an open old book, an engraved library interior behind it.",
+  "origin": {
+    "value": "Boston, Massachusetts, US",
+    "status": "estimated",
+    "basis": "Artist's studio address printed on the back"
+  },
+  "date": {
+    "value": "2017"
+  },
+  "catalog": [
+    {
+      "label": "Artist",
+      "value": "Jesseca Ferguson"
+    },
+    {
+      "label": "Work",
+      "value": "Two horses/book, 2012 print from a 1998 pinhole negative on Polaroid Type 55 film, 10 x 8 in, as printed on the back"
+    },
+    {
+      "label": "Format",
+      "value": "Exhibition announcement card for Stenopes Exquis, an international pinhole photography show at L'Atelier, Nantes, France, November 29 to December 24, 2017"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 1368,
+    "front_h": 2000,
+    "back": null
+  }
+}

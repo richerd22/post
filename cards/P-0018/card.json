@@ -1,0 +1,29 @@
+{
+  "id": "P-0018",
+  "received": "2026-10-18",
+  "kind": "postcard",
+  "title": "Illustrated map of France by Amelie Laffaiteur",
+  "alt": "Illustrated map of France crowded with landmarks, food and people, a woman on a red bicycle and a hot-air balloon.",
+  "catalog": [
+    {
+      "label": "Printing",
+      "value": "Offset, rounded corners"
+    },
+    {
+      "label": "Artist",
+      "value": "Amelie Laffaiteur, signed in the image"
+    },
+    {
+      "label": "Language",
+      "value": "French"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 2000,
+    "front_h": 1437,
+    "back": null
+  }
+}

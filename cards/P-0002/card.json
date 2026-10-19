@@ -1,0 +1,33 @@
+{
+  "id": "P-0002",
+  "received": "2026-10-18",
+  "kind": "postcard",
+  "title": "Hand-drawn birthday duck, Sophia Stel promo card",
+  "alt": "Pen drawing of a wide-eyed duck holding a cupcake with a dollar-sign candle, captioned Happy Birthday.",
+  "catalog": [
+    {
+      "label": "Format",
+      "value": "Promotional card, portrait"
+    },
+    {
+      "label": "Medium",
+      "value": "Black ink drawing, printed"
+    },
+    {
+      "label": "Artist",
+      "value": "Sophia Stel, signed on the back"
+    },
+    {
+      "label": "Publisher",
+      "value": "A24 Music, logo on the back"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 1734,
+    "front_h": 2000,
+    "back": null
+  }
+}

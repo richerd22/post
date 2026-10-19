@@ -1,0 +1,25 @@
+{
+  "id": "P-0019",
+  "received": "2026-10-18",
+  "kind": "ephemera",
+  "title": "Season's Greetings card, two deer and cardinals",
+  "alt": "Two silhouetted deer under a red Season's Greetings sign, with cardinals, bare trees and snow.",
+  "catalog": [
+    {
+      "label": "Format",
+      "value": "Holiday card"
+    },
+    {
+      "label": "Printing",
+      "value": "Offset"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 1378,
+    "front_h": 2000,
+    "back": null
+  }
+}

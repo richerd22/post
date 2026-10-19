@@ -9,7 +9,7 @@ import html, json, os, pathlib, datetime
 
 ROOT = pathlib.Path(__file__).resolve().parent
 SITE = "https://post.cold.fyi"
-BOX = ["PO Box 120264", "Boston, MA 02112-0264"]
+BOX = ["Third Polar Arch", "ATTN: post.cold.fyi", "PO Box 120264", "Boston, MA 02112-0264"]
 CONTACT = "hello@thirdpolararch.com"
 KIND_ORDER = ["mail art", "postcard", "letter", "ephemera"]
 
@@ -69,21 +69,21 @@ def address_block(big=True):
     cls = "address big" if big else "address"
     return f"""<address class="{cls}">
   <span class="to">Send anything to</span>
-  <span>{e(BOX[0])}</span>
-  <span>{e(BOX[1])}</span>
+  {"".join(f"<span>{e(line)}</span>" for line in BOX)}
 </address>"""
 
 
 def tile(c):
-    origin = c.get("origin", {}).get("value", "Origin unknown")
+    origin = c.get("origin", {}).get("value", "")
     date = c.get("date", {}).get("value", "")
+    meta = ", ".join(x for x in (origin, date) if x)
     alt = c.get("alt") or c.get("title", "")
     return f"""<li class="tile" data-kind="{e(c.get('kind',''))}">
   <a href="c/{e(c['id'])}/">
     <span class="mount"><img src="cards/{e(c['_dir'])}/front.webp" alt="{e(alt)}" loading="lazy" width="{c['images']['front_w']}" height="{c['images']['front_h']}"></span>
     <span class="tline"><span class="no">{e(c['id'])}</span><span class="kind">{e(c.get('kind',''))}</span></span>
     <span class="ttitle">{e(c.get('title',''))}</span>
-    <span class="tmeta">{e(origin)}{(', ' + e(date)) if date else ''}</span>
+    <span class="tmeta">{e(meta)}</span>
   </a>
 </li>"""
 

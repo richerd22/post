@@ -1,0 +1,36 @@
+{
+  "id": "P-0001",
+  "received": "2026-10-18",
+  "kind": "ephemera",
+  "title": "Foil-stamped 2019 New Year greeting card",
+  "alt": "Large gold numerals 2019 over blue and gold starbursts.",
+  "date": {
+    "value": "Late 2018 to early 2019",
+    "status": "estimated",
+    "basis": "Designed for New Year 2019"
+  },
+  "catalog": [
+    {
+      "label": "Format",
+      "value": "Greeting card"
+    },
+    {
+      "label": "Printing",
+      "value": "Offset with gold foil"
+    },
+    {
+      "label": "Publisher",
+      "value": "Expressions from Hallmark, Hallmark Licensing LLC, Kansas City, Missouri. Item GBU 4159, printed price $3.89"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 1336,
+    "front_h": 2000,
+    "back": "back.webp",
+    "back_w": 1379,
+    "back_h": 2000
+  }
+}

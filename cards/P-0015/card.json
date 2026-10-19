@@ -1,0 +1,38 @@
+{
+  "id": "P-0015",
+  "received": "2026-10-18",
+  "kind": "postcard",
+  "title": "Johnny O'Keefe maximum card, first day of issue 1998",
+  "alt": "Illustration of a singer in a red suit gripping a microphone stand, with a matching stamp and a pictorial first-day cancel in the corner.",
+  "origin": {
+    "value": "Sunbury, Victoria, Australia"
+  },
+  "postmark": {
+    "value": "First Day of Issue, Sunbury, Victoria 3429, 26 May 1998"
+  },
+  "date": {
+    "value": "May 1998"
+  },
+  "catalog": [
+    {
+      "label": "Stamps",
+      "value": "Australia 45c, The Wild One, 1958 Johnny O'Keefe"
+    },
+    {
+      "label": "Cancel",
+      "value": "Pictorial first-day cancel showing a singer at a microphone stand"
+    },
+    {
+      "label": "Format",
+      "value": "Maximum card: stamp and cancel on the picture side"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 1394,
+    "front_h": 2000,
+    "back": null
+  }
+}

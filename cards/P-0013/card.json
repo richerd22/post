@@ -1,0 +1,49 @@
+{
+  "id": "P-0013",
+  "received": "2026-10-18",
+  "kind": "postcard",
+  "title": "Corpse flower at Como Park's Marjorie McNeely Conservatory",
+  "alt": "Photograph of a giant corpse flower with a tall yellow spike and a ruffled purple spathe among greenhouse palms.",
+  "catalog": [
+    {
+      "label": "Subject",
+      "value": "Corpse Flower - Amorphophallus, Como Park's Marjorie McNeely Conservatory, St Paul, Minnesota (as printed)"
+    },
+    {
+      "label": "Stamps",
+      "value": "US Postcard rate, reef fish and coral design",
+      "status": "estimated",
+      "basis": "Matches the USPS 2019 Coral Reefs postcard stamps; issue not printed legibly in the photo"
+    },
+    {
+      "label": "Cancel",
+      "value": "Machine cancel with slogan"
+    },
+    {
+      "label": "Publisher",
+      "value": "Lantern Press, Seattle, Washington; printed in the USA"
+    },
+    {
+      "label": "Printing",
+      "value": "Offset, white border"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "via": "Postcrossing",
+  "origin": {
+    "value": "Saint Paul, Minnesota, US"
+  },
+  "postmark": {
+    "value": "Saint Paul MN 550, 25 Sep 2026"
+  },
+  "date": {
+    "value": "Mailed September 2026"
+  },
+  "images": {
+    "front": "front.webp",
+    "front_w": 1299,
+    "front_h": 2000,
+    "back": null
+  }
+}

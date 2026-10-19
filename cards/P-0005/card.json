@@ -1,0 +1,25 @@
+{
+  "id": "P-0005",
+  "received": "2026-10-18",
+  "kind": "ephemera",
+  "title": "Thank-you card, For a Wonderful Year",
+  "alt": "Grey card with white script Thank You, the line For a Wonderful Year, and a Happy New Year graphic.",
+  "catalog": [
+    {
+      "label": "Format",
+      "value": "Greeting card"
+    },
+    {
+      "label": "Printing",
+      "value": "Digital print"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 1879,
+    "front_h": 2000,
+    "back": null
+  }
+}

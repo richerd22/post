@@ -1,0 +1,48 @@
+{
+  "id": "P-0016",
+  "received": "2026-10-18",
+  "kind": "postcard",
+  "title": "Helene Schjerfbeck, The Needlewoman, art reproduction",
+  "alt": "Painting of a woman in a high-necked black dress seated in profile against an ochre wall.",
+  "catalog": [
+    {
+      "label": "Artist",
+      "value": "Helene Schjerfbeck (1862-1946)"
+    },
+    {
+      "label": "Work",
+      "value": "Die Näherin (Die Arbeiterin) / The Needlewoman / La couseuse, oil on canvas, 67 x 49.5 cm, Ateneum Art Museum, Finnish National Gallery (as printed)"
+    },
+    {
+      "label": "Stamps",
+      "value": "Finland 0.10 and 0.20 euro bird stamps, 2017 (Clangula hyemalis, Melanitta fusca), a 2025 Helsinki waterfront stamp, and a 0.05 euro stamp"
+    },
+    {
+      "label": "Publisher",
+      "value": "Vontobel, Feldmeilen, Switzerland, card VD 8110; printed in Switzerland"
+    },
+    {
+      "label": "Printing",
+      "value": "Offset reproduction"
+    },
+    {
+      "label": "Condition",
+      "value": "Strip of paper tape across the top of the front"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "via": "Postcrossing",
+  "origin": {
+    "value": "Finland"
+  },
+  "date": {
+    "value": "Mailed for World Postcard Day 2026"
+  },
+  "images": {
+    "front": "front.webp",
+    "front_w": 1398,
+    "front_h": 2000,
+    "back": null
+  }
+}

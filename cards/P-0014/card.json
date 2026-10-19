@@ -1,0 +1,59 @@
+{
+  "id": "P-0014",
+  "received": "2026-10-18",
+  "kind": "postcard",
+  "title": "Bird's-eye view of the birthplace of Confucius, 1998 postal card",
+  "alt": "Aerial photograph of a long walled compound of orange-roofed halls surrounded by low grey city blocks.",
+  "catalog": [
+    {
+      "label": "Subject",
+      "value": "A Bird's Eye View of the Birthplace of Confucius / 孔子故里鸟瞰 (as printed)"
+    },
+    {
+      "label": "Location",
+      "value": "Qufu, Shandong",
+      "status": "estimated",
+      "basis": "Confucius's birthplace is Qufu; the card names the birthplace, not the city"
+    },
+    {
+      "label": "Format",
+      "value": "China Post pre-stamped special postal card, TP8, card 4 of 4, 1998 B"
+    },
+    {
+      "label": "Stamps",
+      "value": "Imprinted 420 fen stamp repeating the aerial view, plus an added China 80 fen pug stamp"
+    },
+    {
+      "label": "Cancel",
+      "value": "Round Beijing hand cancel"
+    },
+    {
+      "label": "Printing",
+      "value": "Photographic, offset, gold border"
+    },
+    {
+      "label": "Language",
+      "value": "Chinese and English"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": "A 1998 postal card, still valid, mailed 28 years after it was printed.",
+  "via": "Postcrossing",
+  "origin": {
+    "value": "Beijing, China"
+  },
+  "postmark": {
+    "value": "Beijing, 25 Sep 2026"
+  },
+  "date": {
+    "value": "Printed 1998, mailed 2026",
+    "status": "estimated",
+    "basis": "Card code TP8 (4-4) 1998 B; postmark 2026"
+  },
+  "images": {
+    "front": "front.webp",
+    "front_w": 2000,
+    "front_h": 1379,
+    "back": null
+  }
+}

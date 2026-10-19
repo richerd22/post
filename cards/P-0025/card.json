@@ -1,0 +1,33 @@
+{
+  "id": "P-0025",
+  "received": "2026-10-18",
+  "kind": "postcard",
+  "title": "Home Is Where the Heart Is, Monument Series by Kristen Mallia",
+  "alt": "Black mismatched display letters spelling Home is where the heart is, on white.",
+  "catalog": [
+    {
+      "label": "Artist",
+      "value": "Kristen Mallia, printed on the front"
+    },
+    {
+      "label": "Work",
+      "value": "Monument Series"
+    },
+    {
+      "label": "Format",
+      "value": "Artist's postcard"
+    },
+    {
+      "label": "Printing",
+      "value": "Black on white"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 2000,
+    "front_h": 1472,
+    "back": null
+  }
+}

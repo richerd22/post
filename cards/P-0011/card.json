@@ -1,0 +1,35 @@
+{
+  "id": "P-0011",
+  "received": "2026-10-18",
+  "kind": "postcard",
+  "title": "Big Wild Goose Pagoda, Xi'an",
+  "alt": "Photograph of a seven-story brick pagoda among temple roofs under a blue sky, with a faux postmark graphic.",
+  "origin": {
+    "value": "Taiwan",
+    "status": "estimated",
+    "basis": "Arrived in the same Taiwan-postmarked envelope as P-0010; the card itself is unmailed"
+  },
+  "catalog": [
+    {
+      "label": "Printing",
+      "value": "Offset, with a printed faux cancel"
+    },
+    {
+      "label": "Language",
+      "value": "Chinese and English"
+    },
+    {
+      "label": "Format",
+      "value": "Unmailed card, sent inside an envelope with P-0010"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "via": "Postcrossing",
+  "images": {
+    "front": "front.webp",
+    "front_w": 2000,
+    "front_h": 1327,
+    "back": null
+  }
+}
