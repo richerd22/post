@@ -143,8 +143,8 @@ def build_card(c, prev_c, next_c):
     for f in c.get("catalog", []):
         rows.append(field_row(f))
     rows.append(field_row({"label": "Received", "value": c.get("received", "")}))
-    if c.get("postcrossing_id"):
-        rows.append(field_row({"label": "Postcrossing", "value": c["postcrossing_id"]}))
+    if c.get("via") and c["via"] != "direct":
+        rows.append(field_row({"label": "Via", "value": c["via"]}))
     back = ""
     if c["images"].get("back"):
         back = f'<figure class="plate back"><img src="{up}cards/{e(d)}/back.webp" alt="Back of {e(c["id"])}, blank card" width="{c["images"]["back_w"]}" height="{c["images"]["back_h"]}"><figcaption>Back. Shown because the card is unused.</figcaption></figure>'
