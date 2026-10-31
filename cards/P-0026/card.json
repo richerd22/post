@@ -1,0 +1,49 @@
+{
+  "id": "P-0026",
+  "received": "2026-10-28",
+  "kind": "postcard",
+  "title": "Kastelholm Castle, Åland Islands",
+  "alt": "A medieval stone castle on a grassy rise with a wooden footbridge at left, mirrored in still water, morning mist low over the surface.",
+  "via": "Postcrossing",
+  "origin": {
+    "value": "Finland"
+  },
+  "postmark": {
+    "value": "Not legible in the photo"
+  },
+  "date": {
+    "value": "Mailed 13 October 2026; card printed 2022 or later",
+    "status": "estimated",
+    "basis": "Sender dated the card; the photo credit names the 2022 Artist of the Year"
+  },
+  "catalog": [
+    {
+      "label": "Subject",
+      "value": "Kastelholm Castle (Kastelholman linna / Kastelholms slott), Sund, Åland Islands"
+    },
+    {
+      "label": "Publisher",
+      "value": "Finnish Postcrossing Friends (Suomen Postcrossing-yhdistys), card Nr. 142"
+    },
+    {
+      "label": "Photograph",
+      "value": "Niclas Nordlund, the association's Artist of the Year 2022"
+    },
+    {
+      "label": "Paper",
+      "value": "FSC Mix certified card, FSC C143803"
+    },
+    {
+      "label": "Stamps",
+      "value": "Finland: 0,05 € and 0,30 € clover-shaped definitives, and a 2nd-class (2 lk) 2011 stamp showing a Posti mailbox. Blue PRIORITY label"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 1138,
+    "front_h": 782,
+    "back": null
+  }
+}
