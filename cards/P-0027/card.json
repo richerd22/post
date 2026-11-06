@@ -1,0 +1,63 @@
+{
+  "id": "P-0027",
+  "received": "2026-11-01",
+  "kind": "postcard",
+  "title": "Soviet postcard of the Karelia tourist complex, Petrozavodsk",
+  "alt": "A tall brick-red hotel tower with rows of balconies behind a long low building, a lake on the horizon and a tour bus parked at right.",
+  "via": "Postcrossing",
+  "origin": {
+    "value": "Czech Republic"
+  },
+  "postmark": {
+    "value": "415 03 Te..., 19.10.26",
+    "status": "estimated",
+    "basis": "Hand cancel partly legible; 415 03 is a Teplice postcode"
+  },
+  "date": {
+    "value": "Printed 11 April 1984; mailed October 2026",
+    "status": "estimated",
+    "basis": "Print run line on the back reads 11.04.84; cancel dated 19.10.26"
+  },
+  "catalog": [
+    {
+      "label": "Subject",
+      "value": "Petrozavodsk, tourist complex \"Karelia\" (Петрозаводск. Туристический комплекс «Карелия»), as captioned on the back"
+    },
+    {
+      "label": "Stamps",
+      "value": "Czech Republic: N (domestic tariff) stamp of Alfons Mucha's \"Podzim\" (Autumn), 1896, 2025 issue. Blue PRIORITAIRE label"
+    },
+    {
+      "label": "Cancel",
+      "value": "Hand cancel, 19.10.26"
+    },
+    {
+      "label": "Format",
+      "value": "Soviet postcard, about 4 x 6 in"
+    },
+    {
+      "label": "Printing",
+      "value": "Offset, color photograph"
+    },
+    {
+      "label": "Publisher",
+      "value": "Sovetskaya Rossiya (Советская Россия), A05816, 11.04.84, IZO-620, print run 50,000, order no. 1085, RPP-3"
+    },
+    {
+      "label": "Condition",
+      "value": "Worn corners and edges"
+    },
+    {
+      "label": "Language",
+      "value": "Russian (printed caption); English (message)"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": "A 1984 Soviet card, mailed from the Czech Republic 42 years later.",
+  "images": {
+    "front": "front.webp",
+    "front_w": 1056,
+    "front_h": 633,
+    "back": null
+  }
+}

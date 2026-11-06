@@ -1,0 +1,61 @@
+{
+  "id": "P-0030",
+  "received": "2026-11-05",
+  "kind": "postcard",
+  "title": "Prague Skoda 15T tram leaving the Vysehrad tunnel",
+  "alt": "A red and white low-floor tram numbered 9267, destination 27 Malostranská, coming out of a stone tunnel with crenellated walls under a blue sky.",
+  "via": "Postcrossing",
+  "origin": {
+    "value": "Prague, Czech Republic"
+  },
+  "postmark": {
+    "value": "Praha 98, 22 Oct 2026"
+  },
+  "date": {
+    "value": "Mailed October 2026",
+    "status": "estimated",
+    "basis": "Hand cancel 22.10.26; print date not shown"
+  },
+  "catalog": [
+    {
+      "label": "Subject",
+      "value": "Low-floor Škoda 15T tram (reg. no. 9267) on special line 27, leaving the Vyšehrad tunnel toward Rašínovo nábřeží, Prague - as captioned on the back"
+    },
+    {
+      "label": "Photograph",
+      "value": "Petr Hejna, as credited on the back"
+    },
+    {
+      "label": "Stamps",
+      "value": "Czech Republic: round Z (foreign tariff) stamp, silhouette of Jára Cimrman, \"Jedna ze 136 možných podob Járy Cimrmana - vynálezce kruhové známky\" (one of 136 possible likenesses of Jára Cimrman, inventor of the round stamp), J. a M. Weigelovi 2014"
+    },
+    {
+      "label": "Cancel",
+      "value": "Hand cancel, Praha 98, 22.10.26"
+    },
+    {
+      "label": "Format",
+      "value": "Continental, about 4 x 6 in"
+    },
+    {
+      "label": "Printing",
+      "value": "Offset, color photograph"
+    },
+    {
+      "label": "Publisher",
+      "value": "Dopravní podnik hl. m. Prahy, akciová společnost (Prague Public Transit Company), as printed on the back"
+    },
+    {
+      "label": "Language",
+      "value": "Czech and English (printed caption); English (message)"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": "Jára Cimrman is a fictional Czech polymath; the stamp credits him with inventing the round stamp.",
+  "images": {
+    "front": "front.webp",
+    "front_w": 1056,
+    "front_h": 698,
+    "back": null
+  }
+}

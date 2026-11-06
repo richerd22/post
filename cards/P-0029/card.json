@@ -1,0 +1,57 @@
+{
+  "id": "P-0029",
+  "received": "2026-11-03",
+  "kind": "postcard",
+  "title": "Open Flair Festival main stage, Eschwege",
+  "alt": "An aerial photo of a packed festival crowd facing a lit main stage with OPEN FLAIR FESTIVAL banners, wooded hills behind at dusk.",
+  "via": "Postcrossing",
+  "origin": {
+    "value": "Germany"
+  },
+  "postmark": {
+    "value": "Briefzentrum 37, 19 Oct 2026"
+  },
+  "date": {
+    "value": "Mailed 19 October 2026",
+    "status": "estimated",
+    "basis": "Machine cancel date; print date not shown"
+  },
+  "catalog": [
+    {
+      "label": "Subject",
+      "value": "Open Flair Festival, Eschwege, Germany - the main stage"
+    },
+    {
+      "label": "Photograph",
+      "value": "Frank Meißner, as credited on the back"
+    },
+    {
+      "label": "Stamps",
+      "value": "Germany: 125 cent stamp, 2025, with a printed data-matrix code; Open Flair Festival logo sticker beside it"
+    },
+    {
+      "label": "Cancel",
+      "value": "Machine wave cancel, Deutsche Post Briefzentrum 37, 19.10.26"
+    },
+    {
+      "label": "Format",
+      "value": "Continental, about 4 x 6 in"
+    },
+    {
+      "label": "Printing",
+      "value": "Offset, color photograph"
+    },
+    {
+      "label": "Language",
+      "value": "English (message); German (stamped greeting)"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": "A festival card for the festival archive: 8 stages, every August in Eschwege, per the sender.",
+  "images": {
+    "front": "front.webp",
+    "front_w": 1019,
+    "front_h": 673,
+    "back": null
+  }
+}

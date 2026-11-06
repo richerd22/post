@@ -1,0 +1,49 @@
+{
+  "id": "P-0028",
+  "received": "2026-11-01",
+  "kind": "ephemera",
+  "title": "Kraft envelope with a holographic LIGHTWARD sticker",
+  "alt": "A brown kraft envelope with \"aw hi! :)\" typed in the middle, a stamp at top right and a black holographic sticker reading LIGHTWARD with an arrow along the bottom.",
+  "via": "Lightward sticker mailer",
+  "origin": {
+    "value": "Illinois, US",
+    "status": "estimated",
+    "basis": "Machine cancel names the South Suburban IL 604 processing plant, not a town"
+  },
+  "postmark": {
+    "value": "S Suburban IL 604, 27 Oct 2026"
+  },
+  "date": {
+    "value": "October 2026",
+    "status": "estimated",
+    "basis": "Same as the postmark"
+  },
+  "catalog": [
+    {
+      "label": "Stamps",
+      "value": "US stamp showing a cutaway building interior",
+      "status": "estimated",
+      "basis": "Design visible; denomination and series not legible in the photo"
+    },
+    {
+      "label": "Cancel",
+      "value": "Inkjet machine cancel on the address side, no stamp cancel visible"
+    },
+    {
+      "label": "Format",
+      "value": "Kraft coin-style envelope, open end"
+    },
+    {
+      "label": "Medium",
+      "value": "Typed text, holographic vinyl sticker"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": "A sticker mailer from Lightward.",
+  "images": {
+    "front": "front.webp",
+    "front_w": 1171,
+    "front_h": 581,
+    "back": null
+  }
+}
