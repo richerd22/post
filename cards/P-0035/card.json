@@ -1,0 +1,56 @@
+{
+  "id": "P-0035",
+  "received": "2026-11-08",
+  "kind": "postcard",
+  "title": "Undivided-back postcard of the East Boston Tunnel",
+  "alt": "Colored view of a stone tunnel portal under an iron railing, with a streetcar coming out on twin tracks and two figures standing above.",
+  "via": "Found - SoWa Vintage Market, Boston (bought, not mailed in)",
+  "origin": {
+    "value": "Boston, Massachusetts, US",
+    "status": "estimated",
+    "basis": "Subject; card is unused"
+  },
+  "date": {
+    "value": "about 1905 to 1907",
+    "status": "estimated",
+    "basis": "Undivided back (address only) and a Series 1902 stamp; the tunnel opened at the end of 1904"
+  },
+  "catalog": [
+    {
+      "label": "Caption",
+      "value": "East Boston Tunnel, Boston, Mass. (front, red)"
+    },
+    {
+      "label": "Stamps",
+      "value": "US 1 cent green, Benjamin Franklin, Series 1902 - affixed, uncanceled"
+    },
+    {
+      "label": "Cancel",
+      "value": "Uncanceled"
+    },
+    {
+      "label": "Format",
+      "value": "Standard postcard, about 3.5 x 5.5 in, undivided back"
+    },
+    {
+      "label": "Printing",
+      "value": "Color halftone"
+    },
+    {
+      "label": "Publisher",
+      "value": "Not named; \"Printed in Germany\""
+    },
+    {
+      "label": "Condition",
+      "value": "Foxing at the left edge and corner wear"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 2000,
+    "front_h": 1418,
+    "back": null
+  }
+}

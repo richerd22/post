@@ -1,0 +1,44 @@
+{
+  "id": "P-0034",
+  "received": "2026-11-08",
+  "kind": "postcard",
+  "title": "Postcard of the Copley Plaza Hotel",
+  "alt": "Illustration of a large pale stone hotel on a corner with pennant flags on the roof and carriages and people on the street.",
+  "via": "Found - SoWa Vintage Market, Boston (bought, not mailed in)",
+  "origin": {
+    "value": "Boston, Massachusetts, US",
+    "status": "estimated",
+    "basis": "Boston publisher and subject; card is unused"
+  },
+  "date": {
+    "value": "about 1915 to 1925",
+    "status": "estimated",
+    "basis": "White border; stamp box gives one cent for the US, Island Possessions, Cuba, Canada and Mexico and two cents foreign"
+  },
+  "catalog": [
+    {
+      "label": "Caption",
+      "value": "903 Copley Plaza Hotel, Boston, Mass. (front); back says it marks the site of the old Art Museum"
+    },
+    {
+      "label": "Format",
+      "value": "Standard postcard, about 3.5 x 5.5 in"
+    },
+    {
+      "label": "Printing",
+      "value": "Halftone with tint"
+    },
+    {
+      "label": "Publisher",
+      "value": "Pub. by M. Abrams, Roxbury, Mass."
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 2000,
+    "front_h": 1443,
+    "back": null
+  }
+}

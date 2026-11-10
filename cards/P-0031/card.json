@@ -1,0 +1,44 @@
+{
+  "id": "P-0031",
+  "received": "2026-11-08",
+  "kind": "postcard",
+  "title": "Linen postcard of Boston Common and the State House",
+  "alt": "Colored illustration of the State House gold dome and brick row buildings above the trees of Boston Common, with a flag flying.",
+  "via": "Found - SoWa Vintage Market, Boston (bought, not mailed in)",
+  "origin": {
+    "value": "Boston, Massachusetts, US",
+    "status": "estimated",
+    "basis": "Boston publisher and subject; card is unused"
+  },
+  "date": {
+    "value": "1930s",
+    "status": "estimated",
+    "basis": "Curteich linen 'C.T. Art-Colortone' stock; Curteich code 3A-H1177 points to the early-to-mid 1930s"
+  },
+  "catalog": [
+    {
+      "label": "Caption",
+      "value": "Boston Common and State House, Boston, Mass. (front); back text headed \"Boston Common\""
+    },
+    {
+      "label": "Format",
+      "value": "Standard postcard, about 3.5 x 5.5 in"
+    },
+    {
+      "label": "Printing",
+      "value": "Linen"
+    },
+    {
+      "label": "Publisher",
+      "value": "United Art Co., Boston, Mass.; printed by Curt Teich, Chicago (\"Genuine Curteich-Chicago 'C.T. Art-Colortone' Post Card\"), code 3A-H1177"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 2000,
+    "front_h": 1441,
+    "back": null
+  }
+}

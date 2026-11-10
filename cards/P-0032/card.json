@@ -1,0 +1,44 @@
+{
+  "id": "P-0032",
+  "received": "2026-11-08",
+  "kind": "postcard",
+  "title": "Linen postcard of the Bunker Hill Monument",
+  "alt": "Colored illustration of a tall granite obelisk against an orange and blue sky, flanked by white buildings and green lawns.",
+  "via": "Found - SoWa Vintage Market, Boston (bought, not mailed in)",
+  "origin": {
+    "value": "Boston, Massachusetts, US",
+    "status": "estimated",
+    "basis": "Boston publisher and subject; card is unused"
+  },
+  "date": {
+    "value": "1940s to 1950s",
+    "status": "estimated",
+    "basis": "Linen stock; publisher address uses the Boston 15 postal zone (zones used 1943-1963)"
+  },
+  "catalog": [
+    {
+      "label": "Caption",
+      "value": "Bunker Hill Monument, Boston, Mass. E-43 (front); back text gives 221 ft, built 1825-1843, 294 steps"
+    },
+    {
+      "label": "Format",
+      "value": "Standard postcard, about 3.5 x 5.5 in"
+    },
+    {
+      "label": "Printing",
+      "value": "Linen"
+    },
+    {
+      "label": "Publisher",
+      "value": "A \"Colourpicture\" Publication, Boston 15, Mass., no. K1805"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 1346,
+    "front_h": 2000,
+    "back": null
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "P-0040",
+  "received": "2026-11-08",
+  "kind": "postcard",
+  "title": "Linen postcard of Washington Street at Summer",
+  "alt": "Colored illustration of a crowded downtown street with flags on the store fronts, cars in the road and the Old South Church steeple in the distance.",
+  "via": "Found - SoWa Vintage Market, Boston (bought, not mailed in)",
+  "origin": {
+    "value": "Boston, Massachusetts, US",
+    "status": "estimated",
+    "basis": "Boston publisher and subject; card is unused"
+  },
+  "date": {
+    "value": "1930s to 1940s",
+    "status": "estimated",
+    "basis": "Linen stock; stamp box asks for one cent (postcard rate until 1952)"
+  },
+  "catalog": [
+    {
+      "label": "Caption",
+      "value": "Washington Street, at Summer, Boston, Mass. (front); back text calls it the center of Boston's shopping district"
+    },
+    {
+      "label": "Format",
+      "value": "Standard postcard, about 3.5 x 5.5 in"
+    },
+    {
+      "label": "Printing",
+      "value": "Linen"
+    },
+    {
+      "label": "Publisher",
+      "value": "Mfg. by Tichnor Bros., Inc., 160 No. Wash. St., Boston, Mass.; \"Tichnor Quality Views\", no. 64458"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 1399,
+    "front_h": 2000,
+    "back": null
+  }
+}

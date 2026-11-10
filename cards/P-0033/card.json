@@ -1,0 +1,44 @@
+{
+  "id": "P-0033",
+  "received": "2026-11-08",
+  "kind": "postcard",
+  "title": "Postcard of the Copley Plaza Grand Ballroom",
+  "alt": "Colored illustration of a long ballroom with chandeliers, arched ceiling and garlands of greenery along the balconies.",
+  "via": "Found - SoWa Vintage Market, Boston (bought, not mailed in)",
+  "origin": {
+    "value": "Boston, Massachusetts, US",
+    "status": "estimated",
+    "basis": "Boston publisher and subject; card is unused"
+  },
+  "date": {
+    "value": "about 1915 to 1930",
+    "status": "estimated",
+    "basis": "White border around the image, divided back"
+  },
+  "catalog": [
+    {
+      "label": "Caption",
+      "value": "The Grand Ballroom, The Copley Plaza, Copley Square, Boston, Mass. (front); back carries the hotel's own text, \"Truly, luxurious refinement without extravagance\""
+    },
+    {
+      "label": "Format",
+      "value": "Standard postcard, about 3.5 x 5.5 in"
+    },
+    {
+      "label": "Printing",
+      "value": "Color halftone on textured stock"
+    },
+    {
+      "label": "Publisher",
+      "value": "United Art Co., Boston, Mass. (UAC monogram); Made in USA"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 2000,
+    "front_h": 1358,
+    "back": null
+  }
+}

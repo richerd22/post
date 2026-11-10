@@ -1,0 +1,44 @@
+{
+  "id": "P-0037",
+  "received": "2026-11-08",
+  "kind": "postcard",
+  "title": "Postcard of the Maid of the Mist fountain, Public Garden",
+  "alt": "Colored view of a round fountain pool with a statue at its center, flower beds around it, and the Washington equestrian statue behind.",
+  "via": "Found - SoWa Vintage Market, Boston (bought, not mailed in)",
+  "origin": {
+    "value": "Boston, Massachusetts, US",
+    "status": "estimated",
+    "basis": "Boston publisher and subject; card is unused"
+  },
+  "date": {
+    "value": "about 1915 to 1930",
+    "status": "estimated",
+    "basis": "White border, divided back"
+  },
+  "catalog": [
+    {
+      "label": "Caption",
+      "value": "905 - Maid of the Mist, Public Garden, Boston Mass. (front); back text on the Public Garden and the Washington statue, erected 1869 at a cost of $42,000"
+    },
+    {
+      "label": "Format",
+      "value": "Standard postcard, about 3.5 x 5.5 in"
+    },
+    {
+      "label": "Printing",
+      "value": "Color halftone"
+    },
+    {
+      "label": "Publisher",
+      "value": "Pub. by The New England News Company, Boston, Mass. (NENCo trademark), no. 11969"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 2000,
+    "front_h": 1333,
+    "back": null
+  }
+}

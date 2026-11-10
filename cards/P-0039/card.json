@@ -1,0 +1,44 @@
+{
+  "id": "P-0039",
+  "received": "2026-11-08",
+  "kind": "postcard",
+  "title": "Linen postcard of the US Custom House tower",
+  "alt": "Colored illustration of a tall clock tower rising from a columned base under an orange and blue sky, with lower buildings and ship masts around it.",
+  "via": "Found - SoWa Vintage Market, Boston (bought, not mailed in)",
+  "origin": {
+    "value": "Boston, Massachusetts, US",
+    "status": "estimated",
+    "basis": "Boston publisher and subject; card is unused"
+  },
+  "date": {
+    "value": "1940s to 1950s",
+    "status": "estimated",
+    "basis": "Linen stock; publisher address uses the Boston 15 postal zone (zones used 1943-1963)"
+  },
+  "catalog": [
+    {
+      "label": "Caption",
+      "value": "The United States Custom House, Boston, Mass. B-42 (front); back gives a height of 498 feet"
+    },
+    {
+      "label": "Format",
+      "value": "Standard postcard, about 3.5 x 5.5 in"
+    },
+    {
+      "label": "Printing",
+      "value": "Linen"
+    },
+    {
+      "label": "Publisher",
+      "value": "A \"Colourpicture\" Publication, Boston 15, Mass., no. 10333"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 1406,
+    "front_h": 2000,
+    "back": null
+  }
+}

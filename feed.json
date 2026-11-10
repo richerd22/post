@@ -1,5 +1,105 @@
 [
  {
+  "id": "P-0040",
+  "title": "Linen postcard of Washington Street at Summer",
+  "kind": "postcard",
+  "received": "2026-11-08",
+  "origin": "Boston, Massachusetts, US",
+  "url": "https://post.cold.fyi/c/P-0040/",
+  "image": "https://post.cold.fyi/cards/P-0040/front.webp",
+  "made_here": false
+ },
+ {
+  "id": "P-0039",
+  "title": "Linen postcard of the US Custom House tower",
+  "kind": "postcard",
+  "received": "2026-11-08",
+  "origin": "Boston, Massachusetts, US",
+  "url": "https://post.cold.fyi/c/P-0039/",
+  "image": "https://post.cold.fyi/cards/P-0039/front.webp",
+  "made_here": false
+ },
+ {
+  "id": "P-0038",
+  "title": "Postcard of the Mapparium, Eastern Hemisphere",
+  "kind": "postcard",
+  "received": "2026-11-08",
+  "origin": "Boston, Massachusetts, US",
+  "url": "https://post.cold.fyi/c/P-0038/",
+  "image": "https://post.cold.fyi/cards/P-0038/front.webp",
+  "made_here": false
+ },
+ {
+  "id": "P-0037",
+  "title": "Postcard of the Maid of the Mist fountain, Public Garden",
+  "kind": "postcard",
+  "received": "2026-11-08",
+  "origin": "Boston, Massachusetts, US",
+  "url": "https://post.cold.fyi/c/P-0037/",
+  "image": "https://post.cold.fyi/cards/P-0037/front.webp",
+  "made_here": false
+ },
+ {
+  "id": "P-0036",
+  "title": "Mailed postcard of the Hotel Lenox",
+  "kind": "postcard",
+  "received": "2026-11-08",
+  "origin": "Boston, Massachusetts, US",
+  "url": "https://post.cold.fyi/c/P-0036/",
+  "image": "https://post.cold.fyi/cards/P-0036/front.webp",
+  "made_here": false
+ },
+ {
+  "id": "P-0035",
+  "title": "Undivided-back postcard of the East Boston Tunnel",
+  "kind": "postcard",
+  "received": "2026-11-08",
+  "origin": "Boston, Massachusetts, US",
+  "url": "https://post.cold.fyi/c/P-0035/",
+  "image": "https://post.cold.fyi/cards/P-0035/front.webp",
+  "made_here": false
+ },
+ {
+  "id": "P-0034",
+  "title": "Postcard of the Copley Plaza Hotel",
+  "kind": "postcard",
+  "received": "2026-11-08",
+  "origin": "Boston, Massachusetts, US",
+  "url": "https://post.cold.fyi/c/P-0034/",
+  "image": "https://post.cold.fyi/cards/P-0034/front.webp",
+  "made_here": false
+ },
+ {
+  "id": "P-0033",
+  "title": "Postcard of the Copley Plaza Grand Ballroom",
+  "kind": "postcard",
+  "received": "2026-11-08",
+  "origin": "Boston, Massachusetts, US",
+  "url": "https://post.cold.fyi/c/P-0033/",
+  "image": "https://post.cold.fyi/cards/P-0033/front.webp",
+  "made_here": false
+ },
+ {
+  "id": "P-0032",
+  "title": "Linen postcard of the Bunker Hill Monument",
+  "kind": "postcard",
+  "received": "2026-11-08",
+  "origin": "Boston, Massachusetts, US",
+  "url": "https://post.cold.fyi/c/P-0032/",
+  "image": "https://post.cold.fyi/cards/P-0032/front.webp",
+  "made_here": false
+ },
+ {
+  "id": "P-0031",
+  "title": "Linen postcard of Boston Common and the State House",
+  "kind": "postcard",
+  "received": "2026-11-08",
+  "origin": "Boston, Massachusetts, US",
+  "url": "https://post.cold.fyi/c/P-0031/",
+  "image": "https://post.cold.fyi/cards/P-0031/front.webp",
+  "made_here": false
+ },
+ {
   "id": "P-0030",
   "title": "Prague Skoda 15T tram leaving the Vysehrad tunnel",
   "kind": "postcard",

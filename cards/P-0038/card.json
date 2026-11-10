@@ -1,0 +1,44 @@
+{
+  "id": "P-0038",
+  "received": "2026-11-08",
+  "kind": "postcard",
+  "title": "Postcard of the Mapparium, Eastern Hemisphere",
+  "alt": "Colored view inside a glass globe painted with a world map, looking past the glass bridge toward Europe and Africa.",
+  "via": "Found - SoWa Vintage Market, Boston (bought, not mailed in)",
+  "origin": {
+    "value": "Boston, Massachusetts, US",
+    "status": "estimated",
+    "basis": "Boston publisher and subject; card is unused"
+  },
+  "date": {
+    "value": "1935 or later",
+    "status": "estimated",
+    "basis": "The Mapparium opened in 1935; smooth stock, no white border"
+  },
+  "catalog": [
+    {
+      "label": "Caption",
+      "value": "Mapparium, Eastern Hemisphere (front); text gives a 30 ft globe of 608 glass panels lit by 300 lights"
+    },
+    {
+      "label": "Format",
+      "value": "Standard postcard, about 3.5 x 5.5 in"
+    },
+    {
+      "label": "Printing",
+      "value": "Color halftone"
+    },
+    {
+      "label": "Publisher",
+      "value": "The Christian Science Publishing House, Boston, Mass.; (c) The Christian Science Publishing Society; no. 15PH"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 1364,
+    "front_h": 2000,
+    "back": null
+  }
+}

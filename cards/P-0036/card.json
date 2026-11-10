@@ -1,0 +1,57 @@
+{
+  "id": "P-0036",
+  "received": "2026-11-08",
+  "kind": "postcard",
+  "title": "Mailed postcard of the Hotel Lenox",
+  "alt": "Colored illustration of a tall red brick and stone hotel on a street corner, with a Lenox pennant on the roof and early cars at the curb.",
+  "via": "Found - SoWa Vintage Market, Boston (bought, not mailed in)",
+  "origin": {
+    "value": "Boston, Massachusetts, US"
+  },
+  "postmark": {
+    "value": "Boston, Mass., Jul 14 (year not legible)"
+  },
+  "date": {
+    "value": "about 1912 to 1925",
+    "status": "estimated",
+    "basis": "White border; one-cent Washington stamp of the 1910s series"
+  },
+  "catalog": [
+    {
+      "label": "Caption",
+      "value": "Hotel Lenox, Boylston & Exeter Street, Boston, Mass. (front)"
+    },
+    {
+      "label": "Stamps",
+      "value": "US 1 cent green, George Washington"
+    },
+    {
+      "label": "Cancel",
+      "value": "Machine cancel, Boston, Mass., Jul 14, 1 AM; year not legible"
+    },
+    {
+      "label": "Format",
+      "value": "Standard postcard, about 3.5 x 5.5 in, divided back"
+    },
+    {
+      "label": "Printing",
+      "value": "Color halftone"
+    },
+    {
+      "label": "Publisher",
+      "value": "Souvenir Post Card Co., N.Y., no. 30016"
+    },
+    {
+      "label": "Condition",
+      "value": "Crazing across the front surface"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 1456,
+    "front_h": 2000,
+    "back": null
+  }
+}
