@@ -1,0 +1,68 @@
+{
+  "id": "P-0041",
+  "received": "2026-11-11",
+  "kind": "postcard",
+  "title": "Postcard of Der neue Zollhof, Düsseldorf, at dusk",
+  "alt": "Photograph at dusk of three curved Gehry buildings, one white, one pale plaster and one in reflective steel, with lit windows and the Rheinturm TV tower on the left against a blue sky.",
+  "via": "Postcrossing",
+  "origin": {
+    "value": "Düsseldorf, Germany",
+    "status": "estimated",
+    "basis": "Postmark city illegible; sender writes from Düsseldorf, German stamps, DE Postcrossing card"
+  },
+  "date": {
+    "value": "2026",
+    "status": "estimated",
+    "basis": "Written date on the back and a 2026-issue stamp; the card's print date is not shown"
+  },
+  "catalog": [
+    {
+      "label": "Caption",
+      "value": "Front: \"Landeshauptstadt Nordrhein-Westfalen\". Back: \"Der neue Zollhof im Medienhafen, nach einem Entwurf des Architekten Frank Owen Gehry, auch Gehry-Bauten genannt\"; \"Düsseldorf\""
+    },
+    {
+      "label": "Stamps",
+      "value": "Germany: 10 cent (seahorse and message in a bottle, 2022), 20 cent (fish, 2024), 95 cent (Wuppertal Schwebebahn, 1901-2026, 2026)"
+    },
+    {
+      "label": "Cancel",
+      "value": "Machine, wavy lines; town and date illegible"
+    },
+    {
+      "label": "Format",
+      "value": "Continental postcard, about 4 x 6 in",
+      "status": "estimated",
+      "basis": "Proportions in the photo"
+    },
+    {
+      "label": "Printing",
+      "value": "Offset, color photograph"
+    },
+    {
+      "label": "Publisher",
+      "value": "Edition Eichenauer e.K. (edition-eichenauer.de); photograph by Georg Eichenauer"
+    },
+    {
+      "label": "Paper",
+      "value": "Coated cardstock, glossy front",
+      "status": "estimated",
+      "basis": "Sheen in the photo"
+    },
+    {
+      "label": "Condition",
+      "value": "Blank white label across the lower front caption band"
+    },
+    {
+      "label": "Language",
+      "value": "German (printed captions)"
+    }
+  ],
+  "sender_note": null,
+  "tpa_note": null,
+  "images": {
+    "front": "front.webp",
+    "front_w": 1197,
+    "front_h": 807,
+    "back": null
+  }
+}
