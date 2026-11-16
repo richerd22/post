@@ -8,6 +8,9 @@ Cards are added by tools/publish.py in the private post-inbox repo, never by han
 import html, json, os, pathlib, datetime
 
 ROOT = pathlib.Path(__file__).resolve().parent
+import sys; sys.path.insert(0, str(ROOT))
+import meta_pixel  # noqa: E402
+META_PIXEL = "1106684958853714"  # TPA Misc pixel; footer note links thirdpolararch.com/privacy
 SITE = "https://post.cold.fyi"
 BOX = ["Third Polar Arch", "ATTN: post.cold.fyi", "PO Box 120264", "Boston, MA 02112-0264"]
 CONTACT = "hello@thirdpolararch.com"
@@ -30,7 +33,7 @@ def load_cards():
 def page(title, body, desc="Mail art and postcards sent to a Boston PO box, cataloged by Third Polar Arch.", canonical="/", depth=0, og_image=None):
     up = "../" * depth
     og = f'<meta property="og:image" content="{SITE}/{og_image}">' if og_image else ""
-    return f"""<!doctype html>
+    return meta_pixel.inject(f"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
@@ -62,7 +65,7 @@ def page(title, body, desc="Mail art and postcards sent to a Boston PO box, cata
 </footer>
 </body>
 </html>
-"""
+""", META_PIXEL)[0]
 
 
 def address_block(big=True):
